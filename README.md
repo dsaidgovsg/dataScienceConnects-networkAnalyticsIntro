@@ -49,14 +49,14 @@ To elaborate on (b), it would be nice if people who haven't met each other could
 
 Use a network, since this captures social relationships. To achieve this, generate pairwise combinations of individuals who have attended the same event, and model them as a network.
 
-Then, use metrics like [Jaccard coefficient](https://www.statisticshowto.com/jaccard-index/) to prioritise candidates to invite to the event.
+Then, use metrics like [Jaccard coefficient](https://en.wikipedia.org/wiki/Jaccard_index) to prioritise candidates to invite to the event.
 
 ![Example](./example.png)
 
 # Concluding remarks
 
-1. Data organisation is key. Tables for events and participants need to be present and clean, in the first place.
-2. Running production-grade network analytics is hard, but doable.
+1. Organisation of datasets is key. Before we can even begin, clean tables for events and participants need to be present.
+2. Running network analytics as a service is hard, but doable. It's simply software engineering.
 3. Predictions should be ground-truthed. Just because Jaccard coefficient scores says they are good candidates, doesn't mean that they actually would enjoy each other's company.
 
-DSAID has some experience in all the above! We've built and are building production-grade systems with Agencies in our Public Service. So if you wanna chat about network analytics, reach out to <ng_jing_song@tech.gov.sg> or <jingsong@dsaid.gov.sg> (author of this repo). He can point you to relevant folks.
+DSAID has some experience in all the above! We've built and are building analytics systems with Agencies. So if you wanna chat about network analytics, reach out to <ng_jing_song@tech.gov.sg> or <jingsong@dsaid.gov.sg> (author of this repo).
