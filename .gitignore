@@ -139,6 +139,7 @@ cython_debug/
 
 # ignore data, but retain structure
 **/data/*
+!data/.gitkeep
 !data/processed/.gitkeep
 
 # ignore VS code workspace config
